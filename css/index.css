@@ -1,0 +1,43 @@
+body h2,h3{
+	text-align: center;
+	font-family: 微软雅黑;
+}
+.btn{
+	height:53px;
+	line-height: 53px;
+	background-color: #999999;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.btn2{
+	width:220px;
+	margin: auto;
+}
+#last_btn{
+	width:64px;
+	background-image: url(../images/previous.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition:all .20s ease-in-out;
+}
+
+#next_btn{
+	width:144px;
+	background-image: url(../images/next.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition:all .20s ease-in-out;
+}
+
+.btn:hover{
+	background-color: #FFD700;
+}
+
+#last_btn:hover{
+	background-position-x: 13px;
+}
+
+#next_btn:hover{
+	background-position-x: 108px;
+}
